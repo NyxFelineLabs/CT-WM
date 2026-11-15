@@ -1,0 +1,69 @@
+{
+  "version": "0.1.0",
+  "files": {
+    "artifacts/file_split_width_93/best.pt": {
+      "asset": "world_model_L32.pt",
+      "sha256": "141e3b57f90215398ab33d5079eba8df91045bf6fdaae33f4180ae59728013f6",
+      "bytes": 2238252,
+      "url": "https://github.com/NyxFelineLabs/CT-WM/releases/download/v0.1.0/world_model_L32.pt",
+      "source_sha256": "e76fd4399f3db42f6c1ff7871a83ccbeb4278802a6fc0a79808447a6b36995a2",
+      "model_tensor_sha256": "12eb21f180a295a8b54ba14053b3a4505f12fad8344a2b26032934bc14b20bbb",
+      "all_model_tensors_unchanged": true,
+      "scaler_metadata_unchanged": true,
+      "packaging": "Removed machine paths; model tensors unchanged"
+    },
+    "artifacts/system_L16/best.pt": {
+      "asset": "world_model_L16.pt",
+      "sha256": "70bfa350a73bff77a358c00ca3877922ed877cc29846af5f5ea4c032834cf6ce",
+      "bytes": 2239660,
+      "url": "https://github.com/NyxFelineLabs/CT-WM/releases/download/v0.1.0/world_model_L16.pt",
+      "source_sha256": "6c13ee9a867a64e8629715dfcccecea8f0353678ede87e9b7dc806ea3ae4da67",
+      "model_tensor_sha256": "e7a3f3e19d30f6577a55e5821aa8c508dfcf1d09dffef883075643fc4070cbeb",
+      "all_model_tensors_unchanged": true,
+      "scaler_metadata_unchanged": true,
+      "packaging": "Removed machine paths; model tensors unchanged"
+    },
+    "artifacts/system_L64/best.pt": {
+      "asset": "world_model_L64.pt",
+      "sha256": "8bd06e87932a12a85a3a4c2259d698e3a091561c53d857070b6b50526f1c2672",
+      "bytes": 2239660,
+      "url": "https://github.com/NyxFelineLabs/CT-WM/releases/download/v0.1.0/world_model_L64.pt",
+      "source_sha256": "8b23e36723e76023aa1d619683b0b9540ff3a88546037b4710dbff9a17641020",
+      "model_tensor_sha256": "80ffd3519f30736a7f949804aa5a9f5de3dbe69d5c78d23f934dbdf7947e161e",
+      "all_model_tensors_unchanged": true,
+      "scaler_metadata_unchanged": true,
+      "packaging": "Removed machine paths; model tensors unchanged"
+    },
+    "artifacts/system_no_z/best.pt": {
+      "asset": "world_model_no_z.pt",
+      "sha256": "6dd4e712b861f81fa621ec411632938429ecd156cb44efc03b999c847158c8b6",
+      "bytes": 2054631,
+      "url": "https://github.com/NyxFelineLabs/CT-WM/releases/download/v0.1.0/world_model_no_z.pt",
+      "source_sha256": "289524600dd9c7f70c44d6e035dd28ec08a2b2f98b5ed168cdfbb5925d9c154e",
+      "model_tensor_sha256": "916dd2e22930a383fde696e73627aec19542e9b92da5b7bb232f025fd8b57b66",
+      "all_model_tensors_unchanged": true,
+      "scaler_metadata_unchanged": true,
+      "packaging": "Removed machine paths; model tensors unchanged"
+    },
+    "runs/e2_python/rl/sac.zip": {
+      "asset": "sac_joint.zip",
+      "sha256": "c57f5542f00ee11dd60bd9eef80e2f2ac2b1a5f7351b4b0243d00494fada326e",
+      "bytes": 3174995,
+      "url": "https://github.com/NyxFelineLabs/CT-WM/releases/download/v0.1.0/sac_joint.zip",
+      "source_sha256": "c57f5542f00ee11dd60bd9eef80e2f2ac2b1a5f7351b4b0243d00494fada326e",
+      "interactions": 50000,
+      "training_seed": 42,
+      "packaging": "Byte-identical frozen terminal SB3 policy; not retrained"
+    },
+    "runs/e2_python/rl/ppo.zip": {
+      "asset": "ppo_joint.zip",
+      "sha256": "154d478cb0973c8a8034b708ccd22aaf1cb1763833131198ddf4fa07e12c9df3",
+      "bytes": 1739150,
+      "url": "https://github.com/NyxFelineLabs/CT-WM/releases/download/v0.1.0/ppo_joint.zip",
+      "source_sha256": "154d478cb0973c8a8034b708ccd22aaf1cb1763833131198ddf4fa07e12c9df3",
+      "interactions": 50000,
+      "training_seed": 42,
+      "packaging": "Byte-identical frozen terminal SB3 policy; not retrained"
+    }
+  }
+}

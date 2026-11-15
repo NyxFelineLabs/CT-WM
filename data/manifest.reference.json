@@ -1,0 +1,88 @@
+{
+  "window_length": 32,
+  "split_files": [
+    7,
+    1,
+    2
+  ],
+  "columns": [
+    "time",
+    "phy_mcs",
+    "mac_dl_cqi",
+    "mac_dl_ri",
+    "mac_dl_pmi",
+    "mac_ul_buffer",
+    "mac_n_prb",
+    "rsrq",
+    "rsrp",
+    "rssi",
+    "dl_sinr",
+    "se",
+    "dl_bler",
+    "delay"
+  ],
+  "files": [
+    {
+      "file": "20250328_09-35-20.csv",
+      "sha256": "2219086951b7347a1be58ec3f642f1c7f0320a742711eaa214f7fc8355a04fc4",
+      "rows": 5999,
+      "split": "train"
+    },
+    {
+      "file": "20250328_09-38-18.csv",
+      "sha256": "263c114b7dc72f3e503a8fb146316db42fa21f9f4d1ef68705d9ccfacba5ecbc",
+      "rows": 5999,
+      "split": "train"
+    },
+    {
+      "file": "20250328_09-59-25.csv",
+      "sha256": "f40166882a0e05a6a8b272df99a2b18982b50e020d92b70939927abd9bc26d96",
+      "rows": 6000,
+      "split": "train"
+    },
+    {
+      "file": "20250328_10-01-58.csv",
+      "sha256": "ed06ef0f08d5d0474b0fd57caeff29713153ab70462332fc2e3b012a245a7281",
+      "rows": 6000,
+      "split": "train"
+    },
+    {
+      "file": "20250328_10-10-53.csv",
+      "sha256": "6faecbb6807c4b789f2e6c362db1721135badfac4bc9d3cf467254867f8cef2c",
+      "rows": 5999,
+      "split": "train"
+    },
+    {
+      "file": "20250331_11-35-21.csv",
+      "sha256": "80750d1dc8395f9cb22f4de9275e31f16c611e58dd6136a072f376c9012ad50c",
+      "rows": 5850,
+      "split": "train"
+    },
+    {
+      "file": "20250331_11-44-52.csv",
+      "sha256": "806e72795ef9ee5a1d6c08659b1c525c015cde6b6ee31feca66afba212ff153f",
+      "rows": 5956,
+      "split": "train"
+    },
+    {
+      "file": "20250331_11-50-40.csv",
+      "sha256": "f01b156e00cc8be33252bbaf86e4f69854b327eda1c98f8eec1ecd8b91e84d4d",
+      "rows": 6000,
+      "split": "val"
+    },
+    {
+      "file": "20250401_09-19-01.csv",
+      "sha256": "dc6ca41d20bb6dc923c41debb9d191037ea4afd3531df0a42bd1ab57d8a65134",
+      "rows": 5999,
+      "split": "test"
+    },
+    {
+      "file": "20250401_09-22-28.csv",
+      "sha256": "adbe42449bf8091c3677cea238e875002efc4810fc0d86ae3c4ad4aa5f98e180",
+      "rows": 5996,
+      "split": "test"
+    }
+  ],
+  "source": "https://doi.org/10.21227/v8p4-v974",
+  "raw_data_redistributed": false
+}

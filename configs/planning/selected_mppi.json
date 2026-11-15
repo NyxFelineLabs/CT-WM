@@ -1,0 +1,16 @@
+{
+  "population": 64,
+  "sigma": 5.0,
+  "temperature": 0.5,
+  "mean_se_change_percent": -0.6107794475545658,
+  "mean_prb_saving_percent": 10.28539357417484,
+  "joint_episode_success_rate": 0.25,
+  "mean_decision_ms": 12.094697451781636,
+  "p95_decision_ms": 15.902149491012096,
+  "mean_cycle_ms": 12.949161841485571,
+  "construction_seconds": 0.39005373301915824,
+  "selection_split": "validation_file_8_only",
+  "hard_se_reference": ">=99% of paired initial hold cumulative SE",
+  "prb_target": "<=84.9% of paired hold cumulative PRB",
+  "world_model_checkpoint": "file_split_width_93/best.pt"
+}

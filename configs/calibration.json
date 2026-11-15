@@ -1,0 +1,28 @@
+{
+  "fit_split": "validation CSV #8 only, raw target rows >=64",
+  "validation_file": "20250331_11-50-40.csv",
+  "validation_sha256": "f01b156e00cc8be33252bbaf86e4f69854b327eda1c98f8eec1ecd8b91e84d4d",
+  "validation_n": 5936,
+  "mc_samples": 8,
+  "temperatures": {
+    "uncalibrated": {
+      "0.5": 1.0,
+      "0.95": 1.0
+    },
+    "scalar_TS_NLL": {
+      "0.5": 1.1803577278937616,
+      "0.95": 1.1803577278937616
+    },
+    "scalar_TS_coverage": {
+      "0.5": 0.2865047968601901,
+      "0.95": 0.2865047968601901
+    },
+    "levelwise_TS": {
+      "0.5": 0.15433750829020074,
+      "0.95": 1.591854688898161
+    }
+  },
+  "mean_unchanged": true,
+  "scaling": "component conditional variance multiplied by T",
+  "levelwise_note": "Two interval-level temperatures; not a single Gaussian variance or parameter posterior."
+}

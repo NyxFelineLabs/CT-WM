@@ -1,0 +1,11 @@
+{
+  "SE_learned_minus_persistence_95pp": [
+    -0.9400284852880785,
+    0.5044717312949414
+  ],
+  "PRB_saving_learned_minus_persistence_95pp": [
+    -1.0809655784450651,
+    -0.32584115431082333
+  ],
+  "scope": "Conditional descriptive intervals, 16 file/start blocks with three feedback seeds aggregated; does not remove within-file dependence or prior test exposure"
+}

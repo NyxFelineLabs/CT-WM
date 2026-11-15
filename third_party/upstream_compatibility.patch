@@ -1,0 +1,13 @@
+diff --git a/src/wm_ms3m/core.py b/src/wm_ms3m/core.py
+index e22e7c0..297ee36 100644
+--- a/src/wm_ms3m/core.py
++++ b/src/wm_ms3m/core.py
+@@ -710,7 +710,7 @@ def train_and_eval_wm_ms3m(cfg: WMMS3MConfig):
+ 
+     opt = torch.optim.AdamW(model.parameters(), lr=cfg.lr, weight_decay=cfg.weight_decay)
+     sched = torch.optim.lr_scheduler.CosineAnnealingWarmRestarts(opt, T_0=10, T_mult=2)
+-    scaler = torch.amp.GradScaler('cuda', enabled=(cfg.device == "cuda"))
++    scaler = torch.cuda.amp.GradScaler(enabled=(cfg.device == "cuda"))
+ 
+     best_val = float("inf")
+     patience = cfg.patience

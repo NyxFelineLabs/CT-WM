@@ -1,0 +1,219 @@
+{
+  "decisions": 6144,
+  "action_differences": 0,
+  "interval_differences": 6144,
+  "max_interval_change_db": 2.1629771559623094,
+  "rsrp_intervals_same_states": [
+    {
+      "kind": "dual_temperature",
+      "covered50": 0.35107421875,
+      "covered95": 0.9773763020833334,
+      "width50": 0.48732030143340427,
+      "width95": 4.547819716235002
+    },
+    {
+      "kind": "unscaled",
+      "covered50": 0.69921875,
+      "covered95": 0.9619140625,
+      "width50": 1.2404485687383653,
+      "width95": 3.6045539462844647
+    }
+  ],
+  "same_KPM_paths_planner_rng": true,
+  "budget_disabled_for_causal_check": true,
+  "conclusion": "Dual-temperature RSRP intervals do not enter current control decisions; necessity for control cannot be claimed.",
+  "episodes": [
+    {
+      "episode": 0,
+      "mismatches": 0
+    },
+    {
+      "episode": 1,
+      "mismatches": 0
+    },
+    {
+      "episode": 2,
+      "mismatches": 0
+    },
+    {
+      "episode": 3,
+      "mismatches": 0
+    },
+    {
+      "episode": 4,
+      "mismatches": 0
+    },
+    {
+      "episode": 5,
+      "mismatches": 0
+    },
+    {
+      "episode": 6,
+      "mismatches": 0
+    },
+    {
+      "episode": 7,
+      "mismatches": 0
+    },
+    {
+      "episode": 8,
+      "mismatches": 0
+    },
+    {
+      "episode": 9,
+      "mismatches": 0
+    },
+    {
+      "episode": 10,
+      "mismatches": 0
+    },
+    {
+      "episode": 11,
+      "mismatches": 0
+    },
+    {
+      "episode": 12,
+      "mismatches": 0
+    },
+    {
+      "episode": 13,
+      "mismatches": 0
+    },
+    {
+      "episode": 14,
+      "mismatches": 0
+    },
+    {
+      "episode": 15,
+      "mismatches": 0
+    },
+    {
+      "episode": 16,
+      "mismatches": 0
+    },
+    {
+      "episode": 17,
+      "mismatches": 0
+    },
+    {
+      "episode": 18,
+      "mismatches": 0
+    },
+    {
+      "episode": 19,
+      "mismatches": 0
+    },
+    {
+      "episode": 20,
+      "mismatches": 0
+    },
+    {
+      "episode": 21,
+      "mismatches": 0
+    },
+    {
+      "episode": 22,
+      "mismatches": 0
+    },
+    {
+      "episode": 23,
+      "mismatches": 0
+    },
+    {
+      "episode": 24,
+      "mismatches": 0
+    },
+    {
+      "episode": 25,
+      "mismatches": 0
+    },
+    {
+      "episode": 26,
+      "mismatches": 0
+    },
+    {
+      "episode": 27,
+      "mismatches": 0
+    },
+    {
+      "episode": 28,
+      "mismatches": 0
+    },
+    {
+      "episode": 29,
+      "mismatches": 0
+    },
+    {
+      "episode": 30,
+      "mismatches": 0
+    },
+    {
+      "episode": 31,
+      "mismatches": 0
+    },
+    {
+      "episode": 32,
+      "mismatches": 0
+    },
+    {
+      "episode": 33,
+      "mismatches": 0
+    },
+    {
+      "episode": 34,
+      "mismatches": 0
+    },
+    {
+      "episode": 35,
+      "mismatches": 0
+    },
+    {
+      "episode": 36,
+      "mismatches": 0
+    },
+    {
+      "episode": 37,
+      "mismatches": 0
+    },
+    {
+      "episode": 38,
+      "mismatches": 0
+    },
+    {
+      "episode": 39,
+      "mismatches": 0
+    },
+    {
+      "episode": 40,
+      "mismatches": 0
+    },
+    {
+      "episode": 41,
+      "mismatches": 0
+    },
+    {
+      "episode": 42,
+      "mismatches": 0
+    },
+    {
+      "episode": 43,
+      "mismatches": 0
+    },
+    {
+      "episode": 44,
+      "mismatches": 0
+    },
+    {
+      "episode": 45,
+      "mismatches": 0
+    },
+    {
+      "episode": 46,
+      "mismatches": 0
+    },
+    {
+      "episode": 47,
+      "mismatches": 0
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Cite CT-WM; when using the prediction backbone, also cite its original publication listed in third_party/README.md."
+type: software
+title: "CT-WM: World-Model Prediction and Short-Horizon Planning for O-RAN"
+authors:
+  - name: "NyxFelineLabs"
+version: 0.1.0
+date-released: 2026-11-14
+url: "https://github.com/NyxFelineLabs/CT-WM"
+repository-code: "https://github.com/NyxFelineLabs/CT-WM"
+license: MIT

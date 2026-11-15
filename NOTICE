@@ -1,0 +1,24 @@
+CT-WM is maintained by NyxFelineLabs.
+
+The prediction backbone in src/wm_ms3m/ derives from:
+  https://github.com/frezazadeh/agentic-wm_ms3m
+  source revision: 29e862d9484ee237eecf669247f29e5db76231f1
+  paper: Agentic World Modeling for 6G: Near-Real-Time Generative
+         State-Space Reasoning, arXiv:2511.02748
+  license: MIT; complete original notice in third_party/WM-MS3M-LICENSE.
+
+The published core.py is byte-identical to the locally validated backbone
+(SHA-256 05a723ee538cca0374e9823ac08a285406f05b9bde9e8851908c0ade5372d6c1).
+This revision identifier names the upstream base; local compatibility fixes
+are described in third_party/README.md. CT-WM does not claim authorship of
+the existing SSM/latent backbone or affiliation with its original authors.
+
+Original additions include experiment adapters, interval diagnostics,
+lightweight planning and link abstractions, packaging, and analysis.
+The E2 objects model application semantics using local JSON. They do not
+implement ASN.1 E2SM/E2AP, SCTP transport, or a production RIC.
+
+Raw KPI recordings are third-party data and are NOT included under this
+repository's MIT license. Obtain them from IEEE DataPort and comply with
+the source's access and reuse terms. Documentation and figures that report
+derived measurements do not grant rights to the underlying dataset.

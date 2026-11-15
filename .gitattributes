@@ -1,0 +1,8 @@
+* text=auto eol=lf
+src/wm_ms3m/core.py -text whitespace=cr-at-eol
+results/** -text whitespace=cr-at-eol
+third_party/WM-MS3M-LICENSE -text whitespace=cr-at-eol
+*.png binary
+*.pdf binary
+*.md whitespace=-blank-at-eol
+*.patch whitespace=-blank-at-eol

@@ -1,0 +1,39 @@
+{
+  "grid": [
+    {
+      "penalty": 1.0,
+      "resource": 1.0,
+      "SE_percent": 3.702984579518276,
+      "PRB_percent": -2.74784482758621,
+      "worst_percent": 0.32568847636154086,
+      "violation": 1.7029845795182759
+    },
+    {
+      "penalty": 1.0,
+      "resource": 1.5,
+      "SE_percent": 2.124859612236296,
+      "PRB_percent": -1.1763649425287293,
+      "worst_percent": -1.4359984773219203,
+      "violation": 0.12485961223629616
+    },
+    {
+      "penalty": 2.0,
+      "resource": 1.0,
+      "SE_percent": 4.9206185592775675,
+      "PRB_percent": -3.3045977011494143,
+      "worst_percent": 0.6723864702802285,
+      "violation": 2.9206185592775675
+    },
+    {
+      "penalty": 2.0,
+      "resource": 1.5,
+      "SE_percent": 3.76821123208837,
+      "PRB_percent": -1.809446839080464,
+      "worst_percent": -0.5963344739767562,
+      "violation": 1.7682112320883698
+    }
+  ],
+  "selected": 1,
+  "selection": "Minimize validation quality violation, then maximize PRB saving; no test tuning",
+  "timing": "Validation cache only; disabled in final evaluation"
+}
